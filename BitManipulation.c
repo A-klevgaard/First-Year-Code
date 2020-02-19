@@ -1,6 +1,5 @@
-0//File ica04b.c
-//Austin Klevgaard 200473826
-//CMPE 1700 ICA04
+0//File BitManipulation.c
+//Austin Klevgaard 
 //Jan 30 2019
 //Description: Program that accepts 4 arguments in the console. arg1 and 3 contains sign values for arg2 and 4
 #include <stdio.h>
