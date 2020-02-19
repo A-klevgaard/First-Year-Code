@@ -1,6 +1,5 @@
 //********************************************************************************
 //Austin Klevgaard 
-//CMPE 1700 - Lab01
 //Program: Bit Run Counter
 //Purpose: Counts the average number of "1's" that are present in an amount of bits, up to 31
 //********************************************************************************
