@@ -21,14 +21,14 @@ namespace AustinKlevgaard_CMPE1600_Lab04b
         ShowSpeedModeless showAnimationSpeed = null;            //Initializes a new show speed modeless dialogue
         getHighScoreName getNameDialog;                         //Loads up a new getHighScoreName dialogue
         int _difficulty;                                        //difficulty setting imported from modal dialogue
-        int _animationSpeed = 70;                              //controls the animation speed of falling letters
+        int _animationSpeed = 70;                               //controls the animation speed of falling letters
         int listSize;                                           //the amount of letters that will be drawn at a time, controlled by difficulty level
         bool pauseGame = false;                                 //boolean used to pause the game
         bool gameOn = false;                                    //bool value used to determine if the player is still playing or lost
         Thread thLetterAnimation;                               //Thread used to control the falling letter animation
         int _playerScore = 0;                                   //holds the current value of the players score for this playthrough
         string saveFileName = "highscores.bin";                 //name of the binary file where highscores are saved into
-        highScores dummy;                                       //highscore strucutre used to fill in blank highscore structs in the lsit
+        highScores dummy;                                       //highscore strucutre used to fill in blank highscore structs in the list
         
         delegate void delVoidListStruct(List<fallingLetter> charList);          //delegate used to pass the char list from worker thread to main
         delegate void delVoidVoidReset();                                       //this delegate will be used to reset the main form after a game has ended
