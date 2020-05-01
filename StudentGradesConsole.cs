@@ -27,7 +27,7 @@ namespace AKlevgaard_CMPE1600_Lab01
             //loop used to continuously run the console program until the user selects quit
             do
             {
-                //clears the conole at the start of each loop
+                //clears the consle at the start of each loop
                 Console.Clear();
 
                 //prints the title of the program to the console
